@@ -19,16 +19,16 @@ body{
 
 .sidebars{
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     background-color: white;
     height: 100%;
     width: 500px;
 }
-
 .sidebarheader{
-
     text-align: right;
     padding: 16px;
-    
+
 }
+
+
