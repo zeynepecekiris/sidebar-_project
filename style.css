@@ -11,7 +11,7 @@ body{
 .fa-bars{
     position: fixed;
     top: 30px;
-    right: 40px;
+    right: 45px;
     font-size: 30px;
     color: coral;
     cursor: pointer;
@@ -24,11 +24,44 @@ body{
     background-color: white;
     height: 100%;
     width: 500px;
+    transform: translate(-100);
+    
 }
 .sidebarheader{
     text-align: right;
     padding: 16px;
 
+}
+
+.fa-regular{
+    color: brown;
+    font-size: 40px;
+    padding: 15px;
+}
+
+.showSidebar {
+    transform: translate(0%);
+}
+.menu a{
+    text-decoration: none;
+    color: gray;
+    font-size: 24px;
+    padding: 16px 24px;
+    display: block;
+
+}
+
+.menu a:hover {
+    background: coral;
+    color: white;
+    padding-left: 40px;
+
+}
+
+@media (max-width:768px){
+    .sidebars{
+        width: 100%;
+    }
 }
 
 
